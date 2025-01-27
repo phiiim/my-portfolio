@@ -259,7 +259,7 @@ const Portfolio = () => {
                           className="h-64 w-auto rounded-lg"
                           controls
                         >
-                          <source src="/Game_Design_video.mp4" type="video/mp4" />
+                          <source src="/my-portfolio/Game_Design_video.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video>
                       </div>
@@ -292,7 +292,7 @@ const Portfolio = () => {
                           className="h-64 w-auto rounded-lg"
                           controls
                         >
-                          <source src="/Ecommerce_website.mp4" type="video/mp4" />
+                          <source src="/my-portfolio/Ecommerce_website.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video>
                       </div>
