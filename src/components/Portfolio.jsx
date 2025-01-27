@@ -35,7 +35,7 @@ const Portfolio = () => {
   //download cv
     const handleDownload = async () => {
       try {
-        const response = await fetch('/cv.pdf');
+        const response = await fetch('/my-portfolio/cv.pdf');
         if (!response.ok) {
           throw new Error('Failed to fetch PDF');
         }
