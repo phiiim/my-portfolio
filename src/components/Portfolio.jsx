@@ -43,7 +43,6 @@ const Portfolio = () => {
         const blob = await response.blob();
         const url = window.URL.createObjectURL(blob);
         
-        // Then enable download
         const link = document.createElement('a');
         link.href = url;
         link.download = 'phichayapa-soranaraksopon-cv.pdf'; 
@@ -218,9 +217,6 @@ const Portfolio = () => {
                 <h3 className="text-2xl font-semibold">Master of Computer Science</h3>
                 <p className="text-lg text-slate-300">Durham University</p>
                 <p className="text-slate-400">2022 - 2026</p>
-                <p className="text-slate-300 mt-2">
-                  Specialized in Artificial Intelligence and Machine Learning
-                </p>
               </div>
             </div>
           </div>
