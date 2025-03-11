@@ -61,7 +61,7 @@ const Portfolio = () => {
       const [isMenuOpen, setIsMenuOpen] = useState(false);
       
       return (
-        <nav className="fixed top-0 left-0 right-0 bg-slate-900/80 backdrop-blur-sm z-50">
+        <nav className="fixed top-0 left-0 right-0 bg-slate-900/50 backdrop-blur-sm z-50">
           <div className="max-w-6xl mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
               <span className="text-white font-bold text-xl">Phichayapa Mei</span>
